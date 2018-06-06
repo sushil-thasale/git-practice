@@ -24,7 +24,8 @@ object Lists {
    * @return The sum of all elements in `xs`
    */
   // feature-1 extra comments
-    def sum(xs: List[Int]): Int = xs.foldLeft(0)((acc, d) => acc + d)
+  // feature-2 extra comments
+    def sum(xs: List[Int]): Int = xs.foldLeft(0)((x, y) => x + y)
 
   /**
    * This method returns the largest element in a list of integers. If the
