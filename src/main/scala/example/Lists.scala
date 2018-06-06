@@ -23,6 +23,7 @@ object Lists {
    * @param xs A list of natural numbers
    * @return The sum of all elements in `xs`
    */
+  // feature-1 extra comments
     def sum(xs: List[Int]): Int = xs.foldLeft(0)((acc, d) => acc + d)
 
   /**
